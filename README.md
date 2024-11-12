@@ -8,13 +8,13 @@ Pour cela, je dispose d'un jeu de données d'entraînement comprenant des labels
 
 Solutions envisagées
 
-1) Vectorisation et classification :
+A) Vectorisation et classification :
 
 1) Utilisation de GloVe avec une SVM (en Spark et Python)
 2) Utilisation de GloVe avec une régression logistique (en Spark et Python)
 3) Utilisation de GloVe avec un perceptron multicouche (en Spark et Python)
 
-2) Utilisation de modèles de type transformers avec fine-tuning de DistilBERT (en Spark et Python)
+B) Utilisation de modèles de type transformers avec fine-tuning de DistilBERT (en Spark et Python)
 
 Je vais explorer ces méthodes successivement, en appliquant trois niveaux de tri/prétraitement différents :
 
